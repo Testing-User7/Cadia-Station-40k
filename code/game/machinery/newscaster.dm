@@ -494,7 +494,7 @@ var/list/obj/machinery/newscaster/allCasters = list() //Global list that will co
 		if(href_list["set_channel_name"])
 			src.channel_name = strip_html_simple(input(usr, "Provide a Feed Channel Name", "Network Channel Handler", ""))
 			while (findtext(src.channel_name," ") == 1)
-				src.channel_name = copytext(src.channel_name,2,lentext(src.channel_name)+1)
+				src.channel_name = copytext(src.channel_name,2,length(src.channel_name)+1)
 			src.updateUsrDialog()
 			//src.update_icon()
 
@@ -539,7 +539,7 @@ var/list/obj/machinery/newscaster/allCasters = list() //Global list that will co
 		else if(href_list["set_new_message"])
 			src.msg = strip_html(input(usr, "Write your Feed story", "Network Channel Handler", ""))
 			while (findtext(src.msg," ") == 1)
-				src.msg = copytext(src.msg,2,lentext(src.msg)+1)
+				src.msg = copytext(src.msg,2,length(src.msg)+1)
 			src.updateUsrDialog()
 
 		else if(href_list["set_attachment"])
@@ -596,13 +596,13 @@ var/list/obj/machinery/newscaster/allCasters = list() //Global list that will co
 		else if(href_list["set_wanted_name"])
 			src.channel_name = strip_html(input(usr, "Provide the name of the Wanted person", "Network Security Handler", ""))
 			while (findtext(src.channel_name," ") == 1)
-				src.channel_name = copytext(src.channel_name,2,lentext(src.channel_name)+1)
+				src.channel_name = copytext(src.channel_name,2,length(src.channel_name)+1)
 			src.updateUsrDialog()
 
 		else if(href_list["set_wanted_desc"])
 			src.msg = strip_html(input(usr, "Provide the a description of the Wanted person and any other details you deem important", "Network Security Handler", ""))
 			while (findtext(src.msg," ") == 1)
-				src.msg = copytext(src.msg,2,lentext(src.msg)+1)
+				src.msg = copytext(src.msg,2,length(src.msg)+1)
 			src.updateUsrDialog()
 
 		else if(href_list["submit_wanted"])
