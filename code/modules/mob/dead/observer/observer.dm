@@ -406,7 +406,7 @@ Update: What have we created?
 		return
 	if(world.time - round_start_time < config.shuttle_refuel_delay)
 		usr << "\blue The round has just begun! Please wait another [abs(round(((world.time - round_start_time) - config.shuttle_refuel_delay)/600))] minutes before trying again."
-		return
+		return //Don't need that Delay for testing!
 	if(inmenu)
 		usr << "\blue I didn't learn to code yesterday. First- close the menu you already have open."
 		return
