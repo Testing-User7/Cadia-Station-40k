@@ -31,6 +31,7 @@
 God Emperor		= +EVERYTHING
 
 Inquisitor		= +Everything
+Adeptus Mechanicus	= +Everything
 Partisan du Serveur 	= +ADMIN +BAN +REJUV +VAREDIT +SPAWN +SERVER +FUN +SOUND +DEBUG
 Admin			= +ADMIN +BAN +REJUV +VAREDIT +SPAWN +SERVER +FUN +SOUND
 Junior Admin            = +ADMIN +BAN +VAREDIT

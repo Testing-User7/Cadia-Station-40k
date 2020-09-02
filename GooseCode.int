@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1598993790
-DIR: _maps _maps\map_files _maps\map_files\backup code code\__DEFINES code\_globalvars\lists code\_onclick code\_onclick\hud code\datums\wires code\game\objects\structures code\modules code\modules\admin code\modules\admin\verbs code\modules\events code\modules\mining code\modules\mob code\modules\mob\dead code\modules\mob\dead\observer icons icons\obj icons\obj\clothing 
+LAST_COMPILE_TIME: 1599012048
+DIR: _maps _maps\map_files\backup code code\_globalvars\lists code\_onclick code\_onclick\hud code\datums\wires code\game code\game\gamemodes code\game\gamemodes\necron code\game\objects code\game\objects\items code\game\objects\items\weapons code\modules code\modules\admin code\modules\admin\verbs code\modules\clothing code\modules\clothing\suits code\modules\mob code\modules\mob\dead code\modules\mob\dead\observer code\modules\mob\living code\modules\mob\living\carbon code\modules\mob\living\carbon\human code\modules\mob\living\carbon\human\humanvariants code\modules\mob\living\carbon\human\humanvariants\special code\modules\mob\living\carbon\human\whitelisted icons icons\obj icons\obj\clothing 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 513.1528
-WINDOW: icons\obj\clothing\suits.dmi;code\_onclick\observer.dm;code\modules\mob\dead\observer\observer.dm
-FILE: code\modules\mob\dead\observer\observer.dm
+WINDOW: icons\obj\clothing\suits.dmi;code\_onclick\observer.dm;code\modules\mob\dead\observer\observer.dm;code\modules\admin\verbs\one_click_antag.dm;code\modules\mob\living\carbon\human\humanvariants\special\marineferry.dm;code\modules\clothing\suits\ironhands.dm;code\modules\mob\living\carbon\human\whitelisted\ultramarines.dm
+FILE: code\modules\clothing\suits\ironhands.dm
 */
 // END_INTERNALS
