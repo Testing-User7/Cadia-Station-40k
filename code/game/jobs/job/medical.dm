@@ -37,7 +37,7 @@ Chief Medical Officer
 	H.equip_to_slot_or_del(new /obj/item/clothing/under/surgerycybernetic(H), slot_w_uniform)
 	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/sneakers/brown(H), slot_shoes)
 	H.equip_to_slot_or_del(new /obj/item/clothing/suit/armor/sister/hosp(H), slot_wear_suit)
-	H.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/inferno(H), slot_s_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile(H), slot_s_store)
 	H.equip_to_slot_or_del(new /obj/item/clothing/glasses/hud/health/night(H), slot_glasses)
 	var/obj/item/weapon/implant/loyalty/E = new/obj/item/weapon/implant/loyalty(H)
 	E.imp_in = H

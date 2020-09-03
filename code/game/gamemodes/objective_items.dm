@@ -72,7 +72,7 @@ datum/objective_item/steal/capmedal
 
 datum/objective_item/steal/inferno
 	name = "an inferno pistol"
-	targetitem = /obj/item/weapon/gun/energy/inferno
+	targetitem = /obj/item/weapon/gun/projectile
 	difficulty = 5
 	excludefromjob = list("Chief Medical Officer", "Sister Hospitalier")
 

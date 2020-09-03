@@ -112,7 +112,7 @@
 			new /obj/item/weapon/storage/backpack/medic(src)
 		else
 			new /obj/item/weapon/storage/backpack/satchel_med(src)
-		new /obj/item/weapon/gun/energy/inferno(src)
+		new /obj/item/weapon/gun/projectile(src)
 		new /obj/item/clothing/suit/labcoat/coat/medical(src)
 		new /obj/item/clothing/suit/bio_suit/cmo(src)
 		new /obj/item/clothing/head/bio_hood/cmo(src)

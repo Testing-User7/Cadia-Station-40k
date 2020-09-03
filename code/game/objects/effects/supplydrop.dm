@@ -449,7 +449,7 @@ var/global/datum/supplydropcontroller/supplydropcontroller = new()
 			new /obj/structure/closet/crate(get_turf(point))
 		else if(inferno)
 			inferno --
-			new /obj/item/weapon/gun/energy/inferno(get_turf(point))
+			new /obj/item/weapon/gun/projectile(get_turf(point))
 			new /obj/structure/closet/crate(get_turf(point))
 		else if(multimelta)
 			multimelta --

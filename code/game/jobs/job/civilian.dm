@@ -393,7 +393,7 @@ Inquisitor
 			if("Hell Pistol")
 				H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/hellpistol(H), slot_r_hand)
 			if("Inferno Pistol")
-				H.equip_to_slot_or_del(new /obj/item/weapon/gun/energy/inferno(H), slot_r_hand)
+				H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile(H), slot_r_hand)
 			if("Stubber Pistol")
 				H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/pistol(H), slot_r_hand)
 

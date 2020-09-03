@@ -99,7 +99,7 @@ Prioress
 
 /mob/living/carbon/human/sob/cannoness/New()
 	..()
-	equip_to_slot_or_del(new /obj/item/weapon/gun/energy/inferno, slot_in_backpack)
+	equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/inferno, slot_in_backpack)
 
 /mob/living/carbon/human/sob/cannoness/Life()
 	..()

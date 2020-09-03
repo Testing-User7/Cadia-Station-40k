@@ -6725,7 +6725,7 @@
 "czq" = (/obj/machinery/rack/powersword/full,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
 "czr" = (/obj/structure/table,/obj/item/ammo_box/magazine/bpistolmag,/obj/item/ammo_box/magazine/bpistolmag,/obj/item/ammo_box/magazine/bpistolmag,/obj/item/ammo_box/magazine/bpistolmag,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
 "czs" = (/obj/structure/table,/obj/item/weapon/gun/projectile/automatic/needler,/obj/item/weapon/gun/projectile/automatic/needler,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
-"czt" = (/obj/structure/table,/obj/item/weapon/gun/energy/inferno,/obj/item/weapon/gun/energy/inferno,/obj/item/weapon/gun/energy/inferno,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
+"czt" = (/obj/structure/table,/obj/item/weapon/gun/projectile/inferno,/obj/item/weapon/gun/projectile/inferno,/obj/item/weapon/gun/projectile/inferno,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
 "czu" = (/obj/structure/table,/obj/item/weapon/gun/projectile/automatic/hellpistol,/obj/item/weapon/gun/projectile/automatic/hellpistol,/obj/item/weapon/gun/projectile/automatic/hellpistol,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
 "czv" = (/obj/structure/table,/obj/item/weapon/storage/box/hellgunmag,/obj/item/weapon/storage/box/hellgunmag,/obj/item/weapon/storage/box/hellgunmag,/obj/item/ammo_box/magazine/needlermag,/obj/item/ammo_box/magazine/needlermag,/turf/simulated/floor{icon_state = "white"},/area/factions/stargazer)
 "czw" = (/obj/effect/step_trigger/thrower{affect_ghosts = 1; direction = 2; name = "thrower_throwdown"; tiles = 0},/turf/space/transit/north/shuttlespace_ns12,/area/snow/fixed)

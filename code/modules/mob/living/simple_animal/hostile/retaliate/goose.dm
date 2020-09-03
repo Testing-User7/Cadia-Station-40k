@@ -459,7 +459,7 @@ RTD controller
 						return
 					if(24)
 						ksons.Add(newname)
-						var/savefile/ksonsMember = new("data/rtd/ksons.sav")
+						var/savefile/ksonsMember = new("data/rtd/ksonsMember.sav")
 						ksonsMember<<ksons
 						return
 
@@ -584,7 +584,7 @@ RTD controller
 						return
 					if(24)
 						ksons.Remove(removal)
-						var/savefile/ksonsMember = new("data/rtd/ksons.sav")
+						var/savefile/ksonsMember = new("data/rtd/ksonsMember.sav")
 						ksonsMember<<ksons
 						return
 
